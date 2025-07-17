@@ -6,7 +6,6 @@ function fortune() {
   { name: "ハリネズミ", image: "harinezumi.png" },
   { name: "銀蛇", image: "ginhebi.png" }, 
 ];
-"ウーパールーパー", "大カラス", "ハリネズミ", "黒猫", "銀蛇"];
   const fortunes = [
     "パワー全開大吉！今日は最高の一日になるでしょう！水辺を歩くとさらに最高になります！",
     "中吉！なにかいいことがあるかも！でも画鋲は踏みます！気を付けてください！",
@@ -18,6 +17,6 @@ function fortune() {
   const randomAnimal = animals[Math.floor(Math.random() * animals.length)];
   const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
 
-  const result = `${randomAnimal}が言いました：「${randomFortune}」`;
+  const result = `${randomAnimal.name}が言いました：「${randomFortune}」`;
   document.getElementById("result").innerText = result;
 }
