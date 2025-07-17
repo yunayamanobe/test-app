@@ -1,9 +1,25 @@
 body {
-  font-family: sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  background-color: #f0f8ff;
   text-align: center;
-  margin-top: 100px;
+  padding: 50px;
 }
-#result {
-  margin-top: 20px;
-  font-size: 24px;
+
+button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  background-color: #8ecae6;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #219ebc;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
