@@ -1,5 +1,12 @@
 function fortune() {
-  const animals = ["ウーパールーパー", "大カラス", "ハリネズミ", "黒猫", "銀蛇"];
+  const animals = [
+  { name: "ウーパールーパー", image: "uparupa.png" },
+  { name: "大カラス", image: "ohkarasu.png" },
+  { name: "黒猫", image: "kuroneko.png" },
+  { name: "ハリネズミ", image: "harinezumi.png" },
+  { name: "銀蛇", image: "ginhebi.png" }, 
+];
+"ウーパールーパー", "大カラス", "ハリネズミ", "黒猫", "銀蛇"];
   const fortunes = [
     "パワー全開大吉！今日は最高の一日になるでしょう！水辺を歩くとさらに最高になります！",
     "中吉！なにかいいことがあるかも！でも画鋲は踏みます！気を付けてください！",
